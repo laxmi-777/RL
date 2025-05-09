@@ -1,7 +1,133 @@
 body {
-  font-family: sans-serif;
-  background-color: #f9f9f9;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
   color: #333;
-  padding: 2rem;
+  background-color: #f5f7fa;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+  padding: 80px 20px;
   text-align: center;
 }
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+}
+
+.cta-btn {
+  padding: 12px 25px;
+  background-color: #ffc107;
+  color: #1e3c72;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 30px;
+  width: 280px;
+  text-align: left;
+}
+
+footer {
+  background-color: #1e3c72;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.navbar {
+  background-color: #002b5c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0; /* Increased height */
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 15px;
+  color: white;
+}
+
+.navbar .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: Inter, serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  color: #ffdd91;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+

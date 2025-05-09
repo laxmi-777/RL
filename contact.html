@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Rise & Launch Prep</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+    <style>
+        .contact-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .contact-container h1 {
+            font-size: 2.2rem;
+            color: #1e3c72;
+            margin-bottom: 20px;
+        }
+
+        .contact-container p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        input, textarea {
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+        }
+
+        button {
+            background-color: #002b5c;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #1e3c72;
+        }
+
+        .contact-container a {
+            color: #002b5c;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-container a:hover {
+            color: #ffc107;
+        }
+    </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="logo">
+        <img src="riseandlaunch.png" alt="Rise & Launch Logo">
+        <span>Rise & Launch Prep</span>
+    </div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- CONTACT FORM -->
+<main class="contact-container">
+    <h1>Contact Us</h1>
+    <p>Sign up for a free consultation today! Whether you're just getting started or deep into the college process, we're here to help.</p>
+
+    <form name="contact" method="POST" data-netlify="true">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="6" placeholder="Your Message..." required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <p style="margin-top: 40px;">Prefer email? Reach us at <a href="mailto:riseandlaunchprep@gmail.com">riseandlaunchprep@gmail.com</a></p>
+    <p>Or schedule directly through <a href="https://calendly.com/YOURLINK">Calendly</a> if available.</p>
+</main>
+
+<footer>
+    <p>📧 riseandlaunchprep@gmail.com</p>
+    <p>© 2025 Rise & Launch Prep</p>
+</footer>
+
+</body>
+</html>
